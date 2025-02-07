@@ -4,7 +4,7 @@ let amigos = [];
 function agregarAmigo(){
     limpiarElemento("resultado");
     let amigo = document.getElementById('amigo').value;
-    if(amigo == ""){
+    if(!/^[A-Za-z\s]+$/.test(amigo)){
         alert('Por favor, inserte un nombre');
     }else{
         amigos.push(amigo);
