@@ -21,6 +21,12 @@ function mostrarLista(){
     }
 }
 
+function sortearAmigo(){
+    let indiceRamdom = Math.floor(Math.random() * amigos.length);
+    let nombreAmigo = amigos[indiceRamdom];
+    document.getElementById("resultado").innerHTML = nombreAmigo;
+}
+
 function limpiarCaja(){
     document.querySelector('#amigo').value = '';
 }
