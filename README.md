@@ -2,9 +2,9 @@
 Este es el primer Challenge de la plataforma de Alura, el objetivo de este Challenge es demostrar lo aprendido en clases las clases anteriores.
 El proyecto trata de crear una pagina en la cual se pueda ingresar nombres y mostrarlos en una lista, para luego poder elegir un nombre aleatorio y 
 asi mostrarlo como el amigo secreto.
-![Pagina principal](image/Captura desde 2025-02-07 16-35-25.png)
-![Ingreso de nombre](image/Captura desde 2025-02-07 16-36-08.png)
-![Resultado amigo secreto](image/Captura desde 2025-02-07 16-36-17.png)
+![Pagina principal](image/captura_1.png)
+![Ingreso de nombre](image/captura_2.png)
+![Resultado amigo secreto](image/captura_3.png)
 ## Funciones del proyecto:
 ### Funcion agregarAmigo():
 Esta funcion se ejecuta al dar click al boton de **Añadir**, en caso de que la casilla de entrada este vacia u contenga numero lanza un alert indicando que la casilla debe de contener un nombre,
